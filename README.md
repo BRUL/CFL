@@ -2,7 +2,7 @@
 
 ## roadmap
 - logo
-- onderdelen:
+- onderdelen
   - intro
   - modellen
     - zetels

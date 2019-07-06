@@ -1,0 +1,33 @@
+.App-header {
+  background: none;
+
+  img {
+//    max-height: 25vh;
+    height: auto;
+  }
+}
+
+.App-showbeelden {
+
+
+  img {
+    border-radius: 1em;
+  }
+}
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
