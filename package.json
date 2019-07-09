@@ -1,6 +1,7 @@
 {
   "name": "cfl",
   "version": "0.1.0",
+  "homepage" : "https://congregational-draf.000webhostapp.com/",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",

@@ -1,8 +1,14 @@
-.App-header {
-  background: none;
+@import url('https://fonts.googleapis.com/css?family=Courgette|Open+Sans:200&display=swap');
+
+/*.App-header {
+
+
+  * {
+    border: 1px solid #eee;
+  }
 
   img {
-//    max-height: 25vh;
+    max-width: 25vw;
     height: auto;
   }
 }
@@ -14,11 +20,76 @@
     border-radius: 1em;
   }
 }
+*/
+
+
+
+body {
+  overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Courgette', cursive !important;
+  padding: 1rem;
+}
+
+p, ul {
+  padding: 0 1rem;
+}
+
+.header .logo {
+
+  img {
+    min-height: 50vh;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+}
+
+.showbeelden .beeld img {
+  height: 50vh;
+  object-fit: cover;
+}
+
+.kasten img {
+  object-fit: cover;
+  height: 50vw;
+}
+
+.icon {
+  height: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .container-flex {
+    margin: 0;
+  }
+
+  .header {
+
+    //margin: 4em auto;
+  }
+
+  .showbeelden {
+    .row {
+      overflow: hidden;
+      .beeld img {
+        height: 80vh;
+        object-position: center;
+      }
+    }
+  }
+  .kasten img {
+    height: 25vw;
+  }
+}
 
 /*
  * Extra utilities
  */
-
+/*
 .flex-equal > * {
   -ms-flex: 1;
   flex: 1;
@@ -29,5 +100,5 @@
     flex: 1;
   }
 }
-
+*/
 .overflow-hidden { overflow: hidden; }
