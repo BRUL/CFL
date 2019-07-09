@@ -1,15 +1,25 @@
 import React, { Component } from 'react';
-import logo from './logo.jpg';
-import logoS from './logo-s.png';
-import showbeeld1 from './showbeeld-preview-1.jpg';
-import showbeeld2 from './showbeeld-preview-2.jpg';
-import showbeeld3 from './showbeeld-preview-3.jpg';
 
-import kasten1 from './kasten-preview-1.jpg';
-import kasten2 from './kasten-preview-2.jpg';
-import kasten3 from './kasten-preview-3.jpg';
-import kasten4 from './kasten-preview-4.jpg';
+import logo from './img/logo.jpg';
+import logoS from './img/logo-s.png';
+import showbeeld1 from './img/showbeeld-preview-1.jpg';
+import showbeeld1b from './img/showbeeld-preview-1b.jpg';
+import showbeeld1c from './img/showbeeld-preview-1c.jpg';
+import showbeeld2 from './img/showbeeld-preview-2.jpg';
+import showbeeld2b from './img/showbeeld-preview-2b.jpg';
+import showbeeld2c from './img/showbeeld-preview-2c.jpg';
+import showbeeld2d from './img/showbeeld-preview-2d.jpg';
+import showbeeld3 from './img/showbeeld-preview-3.jpg';
+import showbeeld3b from './img/showbeeld-preview-3b.jpg';
+
+import kasten1 from './img/kasten-preview-1.jpg';
+import kasten2 from './img/kasten-preview-2.jpg';
+import kasten3 from './img/kasten-preview-3.jpg';
+import kasten4 from './img/kasten-preview-4.jpg';
+
 import './App.scss';
+
+import Carousel from 'react-bootstrap/Carousel'
 
 class App extends Component {
   render() {
@@ -34,7 +44,31 @@ class App extends Component {
 
           <div className="row align-items-center mb-5">
             <div className="col-md-7 order-md-2 beeld">
-              <img src={showbeeld1} className="w-100" alt="" />
+
+              <Carousel indicators={false}>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={showbeeld1}
+                    alt="First slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={showbeeld1b}
+                    alt="Second slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={showbeeld1c}
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+              </Carousel>
+
             </div>
             <div className="col-md-4 offset-md-1 text-right-md my-3">
               <h2 className="box">Stijlvol leder</h2>
@@ -44,7 +78,36 @@ class App extends Component {
 
           <div className="row bg-dark text-white align-items-center mb-5">
             <div className="col-md-7 beeld order-md-1">
-              <img src={showbeeld2} className="w-100" alt="" />
+              <Carousel indicators={false}>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={showbeeld2}
+                    alt="First slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={showbeeld2b}
+                    alt="Second slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={showbeeld2c}
+                    alt="Third slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={showbeeld2d}
+                    alt="Fourth slide"
+                  />
+                </Carousel.Item>
+              </Carousel>
             </div>
             <div className="col-md-4 order-md-2 text-left my-3">
               <h2 className="box box-white">Ergonomie op maat</h2>
@@ -54,7 +117,22 @@ class App extends Component {
 
           <div className="row align-items-center mb-5">
             <div className="col-md-7 order-md-2 beeld">
-              <img src={showbeeld3} className="w-100" alt="" />
+              <Carousel indicators={false}>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={showbeeld3}
+                    alt="First slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={showbeeld3b}
+                    alt="Second slide"
+                  />
+                </Carousel.Item>
+              </Carousel>
             </div>
             <div className="col-md-4 offset-md-1 text-right-md my-3">
               <h2 className="box">Kwaliteit voorop</h2>
@@ -77,9 +155,7 @@ class App extends Component {
           </div>
         </div>
 
-        <a name="contact"></a>
-
-        <footer className="container py-5" itemscope itemtype="http://schema.org/LocalBusiness">
+        <footer id="contact" className="container py-5" itemScope itemType="http://schema.org/LocalBusiness">
           <div className="row">
             <div className="col-12 col-md">
               <img src={logoS} className="icon" alt="" />
@@ -88,16 +164,16 @@ class App extends Component {
             <div className="col col-md">
               <h5>Bedrijf</h5>
               <ul className="list-unstyled text-small text-muted">
-                <li itemprop="name">Comfort For Life bvba</li>
+                <li itemProp="name">Comfort For Life bvba</li>
                 <li>BE 0889.754.274</li>
               </ul>
             </div>
             <div className="col col-md">
               <h5>Hoofdzetel</h5>
               <ul className="list-unstyled text-small">
-                <li><a className="text-muted" itemprop="telephone" href="tel:+32 57 40 14 00">+32 57 40 14 00</a></li>
-                <li><a className="text-muted" itemprop="email" href="mailto:info@comfortforlife.be">info@comfortforlife.be</a></li>
-                <li><a className="text-muted" itemprop="address" href="https://goo.gl/maps/X7qnjzWCrYDdjNrj8">Izegrimstraat 1, 8900 Ieper</a></li>
+                <li><a className="text-muted" itemProp="telephone" href="tel:+32 57 40 14 00">+32 57 40 14 00</a></li>
+                <li><a className="text-muted" itemProp="email" href="mailto:info@comfortforlife.be">info@comfortforlife.be</a></li>
+                <li><a className="text-muted" itemProp="address" href="https://goo.gl/maps/X7qnjzWCrYDdjNrj8">Izegrimstraat 1, 8900 Ieper</a></li>
               </ul>
             </div>
           </div>
