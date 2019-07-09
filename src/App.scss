@@ -1,30 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette|Open+Sans:200&display=swap');
 
-/*.App-header {
-
-
-  * {
-    border: 1px solid #eee;
-  }
-
-  img {
-    max-width: 25vw;
-    height: auto;
-  }
+@mixin box-shadow( $horiz : .5em , $vert : .5em , $blur : 0px , $spread : 0px , $color : #000000 ){
+  -webkit-box-shadow: $horiz $vert $blur $spread $color;
+  -moz-box-shadow: $horiz $vert $blur $spread $color;
+  box-shadow: $horiz $vert $blur $spread $color;
 }
 
-.App-showbeelden {
-
-
-  img {
-    border-radius: 1em;
-  }
-}
-*/
-
-
-
-body {
+.container-flex {
   overflow-x: hidden;
   font-family: 'Open Sans', sans-serif !important;
 }
@@ -33,6 +15,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Courgette', cursive !important;
   padding: 1rem;
 }
+
 
 p, ul {
   padding: 0 1rem;
@@ -65,6 +48,19 @@ p, ul {
 @media (min-width: 768px) {
   .container-flex {
     margin: 0;
+  }
+
+  .box {
+    padding: 0.875rem 1.5rem;
+    border-bottom: 0.125rem solid #000;
+  }
+  .box-white {
+    border-color: #fff;
+  }
+
+
+  .text-right-md {
+    text-align: right;
   }
 
   .header {
