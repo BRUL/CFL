@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import logo from './img/logo.jpg';
-import logoS from './img/logo-s.png';
+import logoS from './img/cfl-logo-small-web.svg';
 import showbeeld1 from './img/showbeeld-preview-1.jpg';
 import showbeeld1b from './img/showbeeld-preview-1b.jpg';
 import showbeeld1c from './img/showbeeld-preview-1c.jpg';
@@ -45,7 +45,7 @@ class App extends Component {
           <div className="row align-items-center mb-5">
             <div className="col-md-7 order-md-2 beeld">
 
-              <Carousel indicators={false}>
+              <Carousel indicators={false} interval={30000}>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
@@ -78,7 +78,7 @@ class App extends Component {
 
           <div className="row bg-dark text-white align-items-center mb-5">
             <div className="col-md-7 beeld order-md-1">
-              <Carousel indicators={false}>
+              <Carousel indicators={false} interval={30000}>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
@@ -117,7 +117,7 @@ class App extends Component {
 
           <div className="row align-items-center mb-5">
             <div className="col-md-7 order-md-2 beeld">
-              <Carousel indicators={false}>
+              <Carousel indicators={false} interval={30000}>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"

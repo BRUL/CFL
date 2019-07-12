@@ -73,6 +73,7 @@ p, ul {
       overflow: hidden;
       .beeld img {
         height: 80vh;
+        max-height: 45vw;
         object-position: center;
       }
     }
