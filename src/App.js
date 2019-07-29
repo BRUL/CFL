@@ -72,7 +72,7 @@ class App extends Component {
             </div>
             <div className="col-md-4 offset-md-1 text-right-md my-3">
               <h2 className="box">Stijlvol leder</h2>
-              <p className="lead">Van de stoerste stieren-nerven tot de soepelste kalfshuiden, natuurlijk leder zorgt voor een ultieme tactiele ervaring en een klassevolle uitstraling.</p>
+              <p className="lead">Van de stoerste stieren-nerven tot de soepelste kalfshuiden, natuurlijk leder zorgt voor de ultieme tactiele ervaring en een klassevolle uitstraling.</p>
             </div>
           </div>
 
@@ -111,7 +111,7 @@ class App extends Component {
             </div>
             <div className="col-md-4 order-md-2 text-left my-3">
               <h2 className="box box-white">Ergonomie op maat</h2>
-              <p className="lead">Omdat bij ons comfort voorop staat, hebben wij bijzondere aandacht voor de menselijke maat. Aanpasbaarheid, flexibiliteit en maatwerk.</p>
+              <p className="lead">Omdat comfort bij ons voorop staat, hebben wij bijzondere aandacht voor de menselijke maat. Aanpasbaarheid, flexibiliteit en maatwerk.</p>
             </div>
           </div>
 
