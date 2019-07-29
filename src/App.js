@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 
 import logo from './img/logo.jpg';
 import logoS from './img/cfl-logo-small-web.svg';
-import showbeeld1 from './img/showbeeld-preview-1.jpg';
-import showbeeld1b from './img/showbeeld-preview-1b.jpg';
-import showbeeld1c from './img/showbeeld-preview-1c.jpg';
-import showbeeld2 from './img/showbeeld-preview-2.jpg';
-import showbeeld2b from './img/showbeeld-preview-2b.jpg';
-import showbeeld2c from './img/showbeeld-preview-2c.jpg';
-import showbeeld2d from './img/showbeeld-preview-2d.jpg';
+import showbeeld1c from './img/Zaragoza.jpg';
+import showbeeld1 from './img/MO320-large-detailbediening.jpg';
+import showbeeld1b from './img/Gloria (8).jpg';
+import showbeeld2c from './img/Contessa_Detail_4940.JPG';
+import showbeeld2b from './img/showbeeld-preview-2c.jpg';
+import showbeeld2 from './img/colorado-relux.jpg';
+import showbeeld2d from './img/Moving 22074.jpg';
 import showbeeld3 from './img/showbeeld-preview-3.jpg';
 import showbeeld3b from './img/showbeeld-preview-3b.jpg';
 
@@ -72,7 +72,7 @@ class App extends Component {
             </div>
             <div className="col-md-4 offset-md-1 text-right-md my-3">
               <h2 className="box">Stijlvol leder</h2>
-              <p className="lead">A a parturient a dictum ligula a porta suspendisse molestie purus libero.</p>
+              <p className="lead">Van de stoerste stieren-nerven tot de soepelste kalfshuiden, natuurlijk leder zorgt voor een ultieme tactiele ervaring en een klassevolle uitstraling.</p>
             </div>
           </div>
 
@@ -111,7 +111,7 @@ class App extends Component {
             </div>
             <div className="col-md-4 order-md-2 text-left my-3">
               <h2 className="box box-white">Ergonomie op maat</h2>
-              <p className="lead">Parturient eleifend eget ac eu a vestibulum tristique consectetur feugiat id scelerisque cum enim.</p>
+              <p className="lead">Omdat bij ons comfort voorop staat, hebben wij bijzondere aandacht voor de menselijke maat. Aanpasbaarheid, flexibiliteit en maatwerk.</p>
             </div>
           </div>
 
@@ -136,7 +136,7 @@ class App extends Component {
             </div>
             <div className="col-md-4 offset-md-1 text-right-md my-3">
               <h2 className="box">Kwaliteit voorop</h2>
-              <p className="lead">Parturient sit venenatis a pretium duis commodo vestibulum eu nibh fringilla mi consectetur in urna ante maecenas a dictum.</p>
+              <p className="lead">Een doorgedreven kennis van materialen en een passie voor vakmanschap garanderen je meubelen die met trots de jaren doorstaan.</p>
             </div>
           </div>
 
@@ -149,9 +149,9 @@ class App extends Component {
             <div className="col-6 col-md"><img src={kasten3} alt="" className="w-100" /></div>
             <div className="col-6 col-md"><img src={kasten4} alt="" className="w-100" /></div>
           </div>
-          <div className="my-3">
+          <div className="row my-3 col-md-10 offset-md-1">
             <h2>Aandacht voor het geheel</h2>
-            <p className="lead">Parturient sit venenatis a pretium duis commodo vestibulum eu nibh fringilla mi consectetur in urna ante maecenas a dictum.</p>
+            <p className="lead">Het interieur eindigt niet bij je salontafel. Wij bieden de nodige collecties aan om elke ruimte in de woning zorgvuldig op elkaar af te stemmen. Van unieke decoratiestukken tot de perfecte maatkasten.</p>
           </div>
         </div>
 
