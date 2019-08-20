@@ -9,8 +9,9 @@ import showbeeld2c from './img/Contessa_Detail_4940.JPG';
 import showbeeld2b from './img/showbeeld-preview-2c.jpg';
 import showbeeld2 from './img/colorado-relux.jpg';
 import showbeeld2d from './img/Moving 22074.jpg';
-import showbeeld3 from './img/showbeeld-preview-3.jpg';
-import showbeeld3b from './img/showbeeld-preview-3b.jpg';
+import showbeeld3 from './img/stock-handen.jpg';
+import showbeeld3b from './img/stock-leer.jpg';
+import showbeeld3c from './img/stock-label.jpg';
 
 import kasten1 from './img/kasten-preview-1.jpg';
 import kasten2 from './img/kasten-preview-2.jpg';
@@ -34,7 +35,7 @@ class App extends Component {
 
           <div className="col-md-7">
             <h1>Zitmeubelen voor het leven</h1>
-            <p className="lead">Comfort For Life is reeds meer dan 10&nbsp;jaar gespecialiseerd in salons en zitmeubelen van uitzonderlijke kwaliteit.</p>
+            <p className="lead">Comfort For Life is reeds jarenlang gespecialiseerd in salons en zitmeubelen van uitzonderlijke kwaliteit.</p>
             <p className="lead"><a href="#contact" className="text-muted">Contacteer ons.</a></p>
           </div>
 
@@ -129,6 +130,13 @@ class App extends Component {
                   <img
                     className="d-block w-100"
                     src={showbeeld3b}
+                    alt="Second slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={showbeeld3c}
                     alt="Second slide"
                   />
                 </Carousel.Item>
