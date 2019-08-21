@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
+
+
 import Carousel from 'react-bootstrap/Carousel'
 import './Gallery.scss';
 
@@ -27,21 +30,22 @@ class Gallery extends Component {
     return (
 
       <div className="catalogus py-4" id="catalogus">
-        <div className="row my-3">
 
+        <div className="index row my-3 py-4">
           <div className="col-md-5 offset-md-1">
             <h2>Catalogus</h2>
             <p className="lead">Wij houden de vinger aan de pols met de laatste ontwikkelingen in de industrie. Met trots presenteren we onze bewezen modellen.</p>
           </div>
           <div className="col-md-5">
             <ul className="list-group list-group-flush">
-              <li className="list-group-item"><a href="#aruba">Aruba</a></li>
-              <li className="list-group-item"><a href="#lausanne">Lausanne</a></li>
-              <li className="list-group-item"><a href="#lissabon">Lissabon</a></li>
-              <li className="list-group-item"><a href="#sevilla">Sevilla</a></li>
+              <li className="list-group-item"><Link smooth to="#aruba">Aruba</Link></li>
+              <li className="list-group-item"><Link smooth to="#lausanne">Lausanne</Link></li>
+              <li className="list-group-item"><Link smooth to="#lissabon">Lissabon</Link></li>
+              <li className="list-group-item"><Link smooth to="#sevilla">Sevilla</Link></li>
             </ul>
           </div>
         </div>
+
         <div className="row modelRow my-3" id="aruba">
           <div className="col-md-3 offset-md-1">
             <h3>Aruba</h3>
