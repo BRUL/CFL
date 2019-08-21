@@ -12,7 +12,6 @@ import logo from './logo.jpg';
 import logoS from './cfl-logo-small-web.svg';
 
 
-
 class Info extends Component {
   render() {
     return (
@@ -27,8 +26,12 @@ class Info extends Component {
           <div className="col-md-7">
             <h1>Zitmeubelen voor het leven</h1>
             <p className="lead">Comfort For Life is reeds jarenlang gespecialiseerd in salons en zitmeubelen van uitzonderlijke kwaliteit.</p>
-            <p className="lead">
+            <p className="lead navigation">
               <NavLink smooth to="#contact" className="text-muted link">Contacteer ons</NavLink>
+
+              <span>, </span>
+
+              <NavLink smooth to="#waarden" className="text-muted link">ontdek onze troeven</NavLink>
 
               <span> of </span>
 

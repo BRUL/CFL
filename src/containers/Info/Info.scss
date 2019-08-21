@@ -40,6 +40,14 @@ a.link:hover {
     object-fit: contain;
     object-position: center;
   }
+
+  .navigation {
+    a {
+    }
+    span {
+      break-after: always;
+    }
+  }
 }
 
 .showbeelden .beeld img {

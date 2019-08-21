@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
+import LazyLoad from 'react-lazyload';
 
 
 import Carousel from 'react-bootstrap/Carousel'
@@ -51,45 +52,53 @@ class Gallery extends Component {
             <h3>Aruba</h3>
             <p>Eventueel kan hier wat uitleg komen over dit model.</p>
           </div>
-          <Carousel indicators={true} interval={60000} className="col-md-7">
-            <Carousel.Item><img src={modelAruba1} alt="model Aruba beeld 1" /></Carousel.Item>
-            <Carousel.Item><img src={modelAruba2} alt="model Aruba beeld 2"/></Carousel.Item>
-            <Carousel.Item><img src={modelAruba3} alt="model Aruba beeld 3"/></Carousel.Item>
-            <Carousel.Item><img src={modelAruba4} alt="model Aruba beeld 4"/></Carousel.Item>
-          </Carousel>
+          <LazyLoad height="66vw" offset={100}>
+            <Carousel indicators={true} interval={60000} className="col-md-7">
+              <Carousel.Item><img src={modelAruba1} alt="model Aruba beeld 1" /></Carousel.Item>
+              <Carousel.Item><img src={modelAruba2} alt="model Aruba beeld 2"/></Carousel.Item>
+              <Carousel.Item><img src={modelAruba3} alt="model Aruba beeld 3"/></Carousel.Item>
+              <Carousel.Item><img src={modelAruba4} alt="model Aruba beeld 4"/></Carousel.Item>
+            </Carousel>
+          </LazyLoad>
         </div>
         <div className="row modelRow my-3" id="lausanne">
           <div className="col-md-3 offset-md-1">
             <h3>Lausanne</h3>
           </div>
-          <Carousel indicators={true} interval={60000} className="col-md-7">
-            <Carousel.Item><img src={modelLausanne1} alt="model Lausanne beeld 1"/></Carousel.Item>
-            <Carousel.Item><img src={modelLausanne2} alt="model Lausanne beeld 2"/></Carousel.Item>
-          </Carousel>
+          <LazyLoad height="66vw" offset={100}>
+            <Carousel indicators={true} interval={60000} className="col-md-7">
+              <Carousel.Item><img src={modelLausanne1} alt="model Lausanne beeld 1"/></Carousel.Item>
+              <Carousel.Item><img src={modelLausanne2} alt="model Lausanne beeld 2"/></Carousel.Item>
+            </Carousel>
+          </LazyLoad>
         </div>
         <div className="row modelRow my-3" id="lissabon">
           <div className="col-md-3 offset-md-1">
             <h3>Lissabon</h3>
           </div>
-          <Carousel indicators={true} interval={60000} className="col-md-7">
-            <Carousel.Item><img src={modelLissabon1} alt="model Lissabon beeld 1"/></Carousel.Item>
-            <Carousel.Item><img src={modelLissabon2} alt="model Lissabon beeld 2"/></Carousel.Item>
-            <Carousel.Item><img src={modelLissabon3} alt="model Lissabon beeld 3"/></Carousel.Item>
-            <Carousel.Item><img src={modelLissabon4} alt="model Lissabon beeld 4"/></Carousel.Item>
-            <Carousel.Item><img src={modelLissabon5} alt="model Lissabon beeld 5"/></Carousel.Item>
-          </Carousel>
+          <LazyLoad height="66vw" offset={100}>
+            <Carousel indicators={true} interval={60000} className="col-md-7">
+              <Carousel.Item><img src={modelLissabon1} alt="model Lissabon beeld 1"/></Carousel.Item>
+              <Carousel.Item><img src={modelLissabon2} alt="model Lissabon beeld 2"/></Carousel.Item>
+              <Carousel.Item><img src={modelLissabon3} alt="model Lissabon beeld 3"/></Carousel.Item>
+              <Carousel.Item><img src={modelLissabon4} alt="model Lissabon beeld 4"/></Carousel.Item>
+              <Carousel.Item><img src={modelLissabon5} alt="model Lissabon beeld 5"/></Carousel.Item>
+            </Carousel>
+          </LazyLoad>
         </div>
         <div className="row modelRow my-3" id="sevilla">
           <div className="col-md-3 offset-md-1">
             <h3>Sevilla</h3>
           </div>
-          <Carousel indicators={true} interval={60000} className="col-md-7">
-            <Carousel.Item><img src={modelSevilla1} alt="model Sevilla beeld 1"/></Carousel.Item>
-            <Carousel.Item><img src={modelSevilla2} alt="model Sevilla beeld 2"/></Carousel.Item>
-            <Carousel.Item><img src={modelSevilla3} alt="model Sevilla beeld 3"/></Carousel.Item>
-            <Carousel.Item><img src={modelSevilla4} alt="model Sevilla beeld 4"/></Carousel.Item>
-            <Carousel.Item><img src={modelSevilla5} alt="model Sevilla beeld 5"/></Carousel.Item>
-          </Carousel>
+          <LazyLoad height="66vw" offset={100}>
+            <Carousel indicators={true} interval={60000} className="col-md-7">
+              <Carousel.Item><img src={modelSevilla1} alt="model Sevilla beeld 1"/></Carousel.Item>
+              <Carousel.Item><img src={modelSevilla2} alt="model Sevilla beeld 2"/></Carousel.Item>
+              <Carousel.Item><img src={modelSevilla3} alt="model Sevilla beeld 3"/></Carousel.Item>
+              <Carousel.Item><img src={modelSevilla4} alt="model Sevilla beeld 4"/></Carousel.Item>
+              <Carousel.Item><img src={modelSevilla5} alt="model Sevilla beeld 5"/></Carousel.Item>
+            </Carousel>
+          </LazyLoad>
         </div>
       </div>
     );

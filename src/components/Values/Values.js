@@ -27,7 +27,7 @@ class Values extends Component {
   render() {
     return (
 
-      <div className="values">
+      <div className="values" id="waarden">
         <div className="showbeelden">
 
           <div className="row align-items-center mb-5">
@@ -149,7 +149,7 @@ class Values extends Component {
             <p className="lead">Het interieur eindigt niet bij je salontafel. Wij bieden de nodige collecties aan om elke ruimte in de woning zorgvuldig op elkaar af te stemmen. Van unieke decoratiestukken tot de perfecte maatkasten.</p>
           </div>
         </div>
-        
+
         </div>
     );
   }

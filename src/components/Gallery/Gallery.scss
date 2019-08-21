@@ -21,7 +21,14 @@
         height: 66vw;
       }
     }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        filter: invert(100%);
+    }
   }
+
+
 
   @media (min-width: 768px) {
 
