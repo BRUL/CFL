@@ -3,6 +3,7 @@ import { NavHashLink as NavLink, HashLink as Link } from 'react-router-hash-link
 
 import Carousel from 'react-bootstrap/Carousel'
 import './Info.scss';
+import Gallery from '../../components/Gallery/Gallery'
 
 /*
 * images
@@ -19,11 +20,11 @@ import showbeeld2d from '../../img/Moving 22074.jpg';
 import showbeeld3 from '../../img/stock-handen.jpg';
 import showbeeld3b from '../../img/stock-leer.jpg';
 import showbeeld3c from '../../img/stock-label.jpg';
+
 import kasten1 from '../../img/kasten-preview-1.jpg';
 import kasten2 from '../../img/kasten-preview-2.jpg';
 import kasten3 from '../../img/kasten-preview-3.jpg';
 import kasten4 from '../../img/kasten-preview-4.jpg';
-
 
 
 class Info extends Component {
@@ -41,11 +42,11 @@ class Info extends Component {
             <h1>Zitmeubelen voor het leven</h1>
             <p className="lead">Comfort For Life is reeds jarenlang gespecialiseerd in salons en zitmeubelen van uitzonderlijke kwaliteit.</p>
             <p className="lead">
-              <NavLink smooth to="#contact" className="text-muted">Contacteer ons</NavLink>
+              <NavLink smooth to="#contact" className="text-muted link">Contacteer ons</NavLink>
 
               <span> of </span>
 
-              <NavLink to="/catalogus" className="text-muted">bekijk onze modellen.</NavLink>
+              <NavLink smooth to="#catalogus" className="text-muted link">bekijk onze modellen.</NavLink>
             </p>
           </div>
 
@@ -197,18 +198,7 @@ class Info extends Component {
           </div>
         </footer>
 
-        <div className="catalogus bg-light py-4">
-          <div className="row">
-            <div className="col-6 col-md"><img src={kasten1} alt="" className="w-100" /></div>
-            <div className="col-6 col-md"><img src={kasten2} alt="" className="w-100" /></div>
-            <div className="col-6 col-md"><img src={kasten3} alt="" className="w-100" /></div>
-            <div className="col-6 col-md"><img src={kasten4} alt="" className="w-100" /></div>
-          </div>
-          <div className="row">
-            <h2>Aandacht voor het geheel</h2>
-            <p className="lead">Het interieur eindigt niet bij je salontafel. Wij bieden de nodige collecties aan om elke ruimte in de woning zorgvuldig op elkaar af te stemmen. Van unieke decoratiestukken tot de perfecte maatkasten.</p>
-          </div>
-        </div>
+        <Gallery />
 
       </div>
     );
