@@ -176,7 +176,7 @@ class Info extends Component {
 
         <footer id="contact" className="container py-5" itemScope itemType="http://schema.org/LocalBusiness">
           <div className="row">
-            <div className="col-12 col-md">
+            <div className="col-12 col-md offset-md-1">
               <Link smooth to="#welkom"><img src={logoS} className="icon" alt="" /></Link>
               <small className="d-block mb-3 text-muted">© 2007-2019</small>
             </div>
