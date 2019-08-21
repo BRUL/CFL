@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { NavHashLink as NavLink, HashLink as Link } from 'react-router-hash-link';
+
 
 import './Info.scss';
 import Gallery from '../../components/Gallery/Gallery'
@@ -28,11 +28,11 @@ class Info extends Component {
             <h1>Zitmeubelen voor het leven</h1>
             <p className="lead">Comfort For Life is reeds jarenlang gespecialiseerd in salons en zitmeubelen van uitzonderlijke kwaliteit.</p>
             <p className="lead">
-              <NavLink smooth to="#contact" className="text-muted link">Contacteer ons</NavLink>
+              <a href="#contact" className="text-muted link">Contacteer ons</a>
 
               <span> of </span>
 
-              <NavLink smooth to="#catalogus" className="text-muted link">bekijk onze modellen.</NavLink>
+              <a href="#catalogus" className="text-muted link">bekijk onze modellen.</a>
             </p>
           </div>
 
@@ -43,7 +43,7 @@ class Info extends Component {
         <footer id="contact" className="container py-5" itemScope itemType="http://schema.org/LocalBusiness">
           <div className="row">
             <div className="col-12 col-md offset-md-1">
-              <Link smooth to="#welkom"><img src={logoS} className="icon" alt="" /></Link>
+              <a href="#welkom"><img src={logoS} className="icon" alt="" /></a>
               <small className="d-block mb-3 text-muted">© 2007-2019</small>
             </div>
             <div className="col col-md">
