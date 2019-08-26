@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Open+Sans:200&display=swap');
+
+@mixin box-shadow( $horiz : .5em , $vert : .5em , $blur : 0px , $spread : 0px , $color : #000000 ){
+  -webkit-box-shadow: $horiz $vert $blur $spread $color;
+  -moz-box-shadow: $horiz $vert $blur $spread $color;
+  box-shadow: $horiz $vert $blur $spread $color;
+}
+
+.container-flex {
+  overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Courgette', cursive !important;
+  padding: 1rem;
+}
+
+p, ul {
+  padding: 0 1rem;
+}
+
+a.link {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+a.link:hover {
+  text-decoration: none;
+  border-bottom: none;
+  color: inherit !important;
+}
+
+.overflow-hidden { overflow: hidden; }
+
+@media (min-width: 768px) {
+
+  .container-flex {
+    margin: 0;
+  }
+
+}

@@ -1,0 +1,42 @@
+
+
+.showbeelden .beeld img {
+  height: 50vh;
+  object-fit: cover;
+}
+
+.kasten img {
+  object-fit: cover;
+  height: 50vw;
+}
+
+
+
+@media (min-width: 768px) {
+
+  .box {
+    padding: 0.875rem 1.5rem;
+    border-bottom: 0.125rem solid #000;
+  }
+  .box-white {
+    border-color: #fff;
+  }
+
+  .text-right-md {
+    text-align: right;
+  }
+
+  .showbeelden {
+    .row {
+      overflow: hidden;
+      .beeld img {
+        height: 80vh;
+        max-height: 45vw;
+        object-position: center;
+      }
+    }
+  }
+  .kasten img {
+    height: 25vw;
+  }
+}
