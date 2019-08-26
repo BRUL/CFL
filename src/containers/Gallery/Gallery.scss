@@ -32,13 +32,25 @@
 
   @media (min-width: 768px) {
 
-    .carousel {
-      height: 50vh;
-      .carousel-item {
-        img {
-          height: 50vh;
+    .catalogus {
+
+
+
+      .row {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+      }
+
+      .carousel {
+
+        height: 70vh;
+        .carousel-item {
+          img {
+            height: 70vh;
+          }
         }
       }
+
     }
 
   }

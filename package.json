@@ -25,13 +25,19 @@
     "typescript": "^3.5.2"
   },
   "devDependencies": {
-    "lodash": "^4.17.13"
+    "lodash": "^4.17.13",
+    "grunt": "^1.0.4",
+    "grunt-responsive-images": "1.10.1",
+    "jimp": "0.6.1",
+    "recursive-readdir": "2.2.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "convert-placeholders-to-base64-images": "node convert-placeholders-to-base64-images.js",
+    "generate-responsive-images": "grunt && npm run convert-placeholders-to-base64-images"
   },
   "browserslist": {
     "production": [
