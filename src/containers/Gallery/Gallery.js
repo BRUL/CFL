@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import LazyLoad from 'react-lazyload';
-
 import Carousel from 'react-bootstrap/Carousel'
 import './Gallery.scss';
 

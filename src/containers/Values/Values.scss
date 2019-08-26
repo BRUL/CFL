@@ -1,5 +1,3 @@
-
-
 .showbeelden .beeld img {
   height: 50vh;
   object-fit: cover;
@@ -27,6 +25,7 @@
   }
 
   .showbeelden {
+    padding-top: 3rem;
     .row {
       overflow: hidden;
       .beeld img {
