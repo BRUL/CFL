@@ -30,7 +30,9 @@ class Header extends Component {
 
             <span> of </span>
 
-            <NavLink smooth to="/catalogus" className="text-muted link" activeClassName="active">bekijk onze modellen.</NavLink>
+            <NavLink smooth to="/catalogus" className="text-muted link" activeClassName="active">bekijk onze modellen</NavLink>
+
+            .
           </p>
         </div>
 
