@@ -22,7 +22,7 @@ class Header extends Component {
         <div className="col-md-7">
           <h1>Zitmeubelen voor het leven</h1>
           <p className="lead">Comfort For Life is reeds jarenlang gespecialiseerd in salons en zitmeubelen van uitzonderlijke kwaliteit.</p>
-          <p className="lead navigation">
+          <div className="lead navigation mx-3">
 
             <NavLink smooth to="#contact" className="text-muted link" activeClassName="active">Contacteer ons</NavLink>
 
@@ -39,7 +39,7 @@ class Header extends Component {
             </ScrollTo>
 
             .
-          </p>
+          </div>
         </div>
 
       </div>
