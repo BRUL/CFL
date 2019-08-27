@@ -4,15 +4,6 @@ import ResponsiveImage from '../../components/ResponsiveImage/ResponsiveImage'
 
 import './Values.scss';
 
-/*
-* images
-*/
-
-import kasten1 from '../../img/kasten-preview-1.jpg';
-import kasten2 from '../../img/kasten-preview-2.jpg';
-import kasten3 from '../../img/kasten-preview-3.jpg';
-import kasten4 from '../../img/kasten-preview-4.jpg';
-
 class Values extends Component {
 
   render() {
