@@ -12,7 +12,7 @@ class Gallery extends Component {
 
       <div className="catalogus py-4" id="catalogus">
 
-        <div className="index row my-3 py-4">
+        <div className="index row py-4">
           <div className="col-md-5 offset-md-1">
             <h2>Catalogus</h2>
             <p className="lead">Wij houden de vinger aan de pols met de laatste ontwikkelingen in de industrie. Met trots presenteren we onze bewezen modellen.</p>
@@ -27,7 +27,7 @@ class Gallery extends Component {
           </div>
         </div>
 
-        <div className="row modelRow my-3 align-items-center" id="aruba">
+        <div className="row modelRow align-items-center" id="aruba">
           <div className="col-md-3 offset-md-1">
             <h3>Aruba</h3>
           </div>
@@ -40,7 +40,7 @@ class Gallery extends Component {
             </Carousel>
           </LazyLoad>
         </div>
-        <div className="row modelRow my-3 align-items-center" id="lausanne">
+        <div className="row modelRow align-items-center" id="lausanne">
           <div className="col-md-3 offset-md-1">
             <h3>Lausanne</h3>
           </div>
@@ -51,7 +51,7 @@ class Gallery extends Component {
             </Carousel>
           </LazyLoad>
         </div>
-        <div className="row modelRow my-3 align-items-center" id="lissabon">
+        <div className="row modelRow align-items-center" id="lissabon">
           <div className="col-md-3 offset-md-1">
             <h3>Lissabon</h3>
           </div>
@@ -65,7 +65,7 @@ class Gallery extends Component {
             </Carousel>
           </LazyLoad>
         </div>
-        <div className="row modelRow my-3 align-items-center" id="sevilla">
+        <div className="row modelRow align-items-center" id="sevilla">
           <div className="col-md-3 offset-md-1">
             <h3>Sevilla</h3>
           </div>
