@@ -1,8 +1,11 @@
 .Values {
 
-  .showbeelden .beeld img {
-    height: 50vh;
-    object-fit: cover;
+  .carousel {
+    .ResponsiveImage {
+      height: 50vh;
+      object-fit: cover;
+      object-position: center;
+    }
   }
 
   .kasten img {
@@ -11,12 +14,7 @@
     width: 50vw;
   }
 
-  .carousel-item {
-    display: block;
-    width: 100%;
-  }
 }
-
 
 @media (min-width: 768px) {
   .Values {
@@ -33,20 +31,10 @@
       text-align: right;
     }
 
-    .showbeelden {
-
-      padding-top: 3rem;
-
-      .row {
-
-        overflow: hidden;
-
-        .beeld img {
-          height: 80vh;
-          max-height: 45vw;
-          object-position: center;
-        }
-
+    .carousel {
+      .ResponsiveImage {
+        height: 80vh;
+        max-height: 45vw;
       }
     }
 
