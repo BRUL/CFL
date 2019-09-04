@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
-import scrollToComponent from 'react-scroll-to-component';
 import './Header.scss';
 
-/*
-* images
-*/
 import logo from './logo.jpg';
 
 class Header extends Component {

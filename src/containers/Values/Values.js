@@ -14,7 +14,7 @@ class Values extends Component {
 
   render() {
     return (
-      <div className="values" id="waarden" ref={(div) => { this.Container = div; }}>
+      <div className="Values" id="waarden" ref={(div) => { this.Container = div; }}>
         <div className="showbeelden">
 
           <div className="row align-items-center mb-5">
@@ -124,7 +124,7 @@ class Values extends Component {
           </div>
         </div>
 
-        </div>
+      </div>
     );
   }
 }

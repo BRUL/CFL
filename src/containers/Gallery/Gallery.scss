@@ -13,40 +13,36 @@
     overflow: hidden;
 
     .carousel-item {
-      height: 50vh;
 
       .ResponsiveImage {
           object-fit: contain !important;
+          height: 50vh;
       }
     }
 
     .carousel-control-next,
     .carousel-control-prev {
-        filter: invert(100%);
+        filter: invert(50%);
     }
   }
 
+}
 
+@media (min-width: 768px) {
 
-  @media (min-width: 768px) {
+  .catalogus {
 
-    .catalogus {
+    .row {
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
 
-      .rowow {
-        margin-top: 3rem;
-        margin-bottom: 3rem;
+    .carousel {
+
+      .carousel-item .ResponsiveImage {
+
+        
       }
-
-      .carousel {
-
-        height: 70vh;
-        .carousel-item {
-          img {
-            height: 70vh;
-          }
-        }
-      }
-
     }
 
   }
