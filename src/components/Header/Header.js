@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
-import ScrollTo from 'react-scroll-into-view'
-
+import scrollToComponent from 'react-scroll-to-component';
 import './Header.scss';
 
 /*
@@ -28,15 +27,11 @@ class Header extends Component {
 
             <span>, </span>
 
-            <ScrollTo selector="#waarden" className="navLink">
-              <NavLink smooth to="/waarden" className="text-muted link" activeClassName="active">ontdek onze troeven</NavLink>
-            </ScrollTo>
+            <NavLink smooth to="/waarden" className="text-muted link" activeClassName="active">ontdek onze troeven</NavLink>
 
             <span> of </span>
 
-            <ScrollTo selector="#catalogus" className="navLink">
-              <NavLink smooth to="/catalogus" className="text-muted link" activeClassName="active">bekijk onze modellen</NavLink>
-            </ScrollTo>
+            <NavLink smooth to="/catalogus" className="text-muted link" activeClassName="active">bekijk onze modellen</NavLink>
 
             .
           </div>

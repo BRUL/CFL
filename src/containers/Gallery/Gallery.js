@@ -3,14 +3,21 @@ import { HashLink as Link } from 'react-router-hash-link';
 import LazyLoad from 'react-lazyload';
 import Carousel from 'react-bootstrap/Carousel'
 import ResponsiveImage from '../../components/ResponsiveImage/ResponsiveImage'
+import scrollToComponent from 'react-scroll-to-component';
+
 
 import './Gallery.scss';
 
 class Gallery extends Component {
+
+  componentDidMount() {
+    scrollToComponent(this.Container, { offset: 0, align: 'top'});
+  }
+
   render() {
     return (
 
-      <div className="catalogus py-4" id="catalogus">
+      <div className="catalogus py-4" id="catalogus" ref={(div) => { this.Container = div; }}>
 
         <div className="index row py-4">
           <div className="col-md-5 offset-md-1">

@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette|Open+Sans:200&display=swap');
 
-@mixin box-shadow( $horiz : .5em , $vert : .5em , $blur : 0px , $spread : 0px , $color : #000000 ){
-  -webkit-box-shadow: $horiz $vert $blur $spread $color;
-  -moz-box-shadow: $horiz $vert $blur $spread $color;
-  box-shadow: $horiz $vert $blur $spread $color;
-}
-
 .container-flex {
   overflow-x: hidden;
   font-family: 'Open Sans', sans-serif !important;

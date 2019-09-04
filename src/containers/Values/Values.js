@@ -1,14 +1,20 @@
 import React, { Component } from 'react';
-import Carousel from 'react-bootstrap/Carousel'
-import ResponsiveImage from '../../components/ResponsiveImage/ResponsiveImage'
+import Carousel from 'react-bootstrap/Carousel';
+import ResponsiveImage from '../../components/ResponsiveImage/ResponsiveImage';
+import scrollToComponent from 'react-scroll-to-component';
+
 
 import './Values.scss';
 
 class Values extends Component {
 
+  componentDidMount() {
+    scrollToComponent(this.Container, { offset: 0, align: 'top'});
+  }
+
   render() {
     return (
-      <div className="values" id="waarden">
+      <div className="values" id="waarden" ref={(div) => { this.Container = div; }}>
         <div className="showbeelden">
 
           <div className="row align-items-center mb-5">
