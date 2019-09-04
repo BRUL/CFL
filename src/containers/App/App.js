@@ -12,6 +12,9 @@ import Contact from '../../components/Contact/Contact';
 import Values from '../Values/Values';
 import Gallery from '../Gallery/Gallery';
 
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-147105378-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 const App = () => (
   <Router>
