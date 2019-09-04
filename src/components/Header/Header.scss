@@ -5,6 +5,10 @@
   .navLink {
     display: inline;
   }
+  .active {
+    border: 0;
+    color: inherit !important;
+  }
 
   .logo img {
     min-height: 50vh;

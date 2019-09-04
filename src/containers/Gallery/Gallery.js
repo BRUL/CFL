@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
-import ModelCarousel from '../../components/ModelCarousel/ModelCarousel'
 import scrollToComponent from 'react-scroll-to-component';
 import './Gallery.scss';
+
+import ModelCarousel from '../../components/ModelCarousel/ModelCarousel'
+import { HashLink as Link } from 'react-router-hash-link';
 
 import ProjectRepository from '../../repositories/project-repository';
 const projectRepository = new ProjectRepository();

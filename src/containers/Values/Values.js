@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
+import scrollToComponent from 'react-scroll-to-component';
+import './Values.scss';
+
 import Carousel from 'react-bootstrap/Carousel';
 import ResponsiveImage from '../../components/ResponsiveImage/ResponsiveImage';
-import scrollToComponent from 'react-scroll-to-component';
-
-
-import './Values.scss';
 
 class Values extends Component {
 
