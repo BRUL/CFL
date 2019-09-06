@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 import './Header.scss';
 
-import logo from './logo.jpg';
+import ResponsiveImage from '../ResponsiveImage/ResponsiveImage'
 
 class Header extends Component {
   render() {
@@ -11,7 +11,7 @@ class Header extends Component {
       <div className="header row align-items-center mb-5" id="welkom">
 
         <div className="col-md-3 offset-md-1 logo ">
-          <img src={logo} alt="logo" />
+          <ResponsiveImage projectName="logo" imageName="logo" alt="Comfort For Life logo" title="" />
         </div>
 
         <div className="col-md-7">
