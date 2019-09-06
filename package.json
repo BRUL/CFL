@@ -1,7 +1,7 @@
 {
   "name": "cfl",
   "version": "0.1.2",
-  "homepage": "https://heuristic-lovelace-c17492.netlify.com",
+  "homepage": "http://www.comfortforlife.be",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
