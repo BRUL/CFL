@@ -1,32 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Courgette|Open+Sans:200&display=swap');
-
 .container-flex {
   overflow-x: hidden;
-  font-family: 'Open Sans', sans-serif !important;
 }
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Courgette', cursive !important;
-  padding: 1rem;
-}
-
-p, ul {
-  padding: 0 1rem;
-}
-
-a.link {
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  text-decoration: none;
-}
-a.link:hover {
-  text-decoration: none;
-  border-bottom: none;
-  color: inherit !important;
-}
-
-
-.overflow-hidden { overflow: hidden; }
 
 @media (min-width: 768px) {
 

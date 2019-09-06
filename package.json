@@ -1,6 +1,6 @@
 {
   "name": "cfl",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://heuristic-lovelace-c17492.netlify.com",
   "private": true,
   "dependencies": {

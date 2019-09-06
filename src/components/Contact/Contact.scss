@@ -3,5 +3,9 @@
 
   .icon {
     height: 1.5rem;
+    transition: filter 200ms ease-in;
+    &:hover {
+      filter: opacity(0.5);
+    }
   }
 }

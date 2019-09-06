@@ -7,11 +7,13 @@ import {
 
 import './App.scss';
 
-import Header from '../../components/Header/Header';
-import Contact from '../../components/Contact/Contact';
-import Values from '../Values/Values';
-import Gallery from '../Gallery/Gallery';
+// Load page components
+import Header from '../../components/Header/Header.js';
+import Contact from '../../components/Contact/Contact.js';
+import Values from '../Values/Values.js';
+import Gallery from '../Gallery/Gallery.js';
 
+// Google analytics
 import ReactGA from 'react-ga';
 ReactGA.initialize('UA-147105378-1');
 ReactGA.pageview(window.location.pathname + window.location.search);

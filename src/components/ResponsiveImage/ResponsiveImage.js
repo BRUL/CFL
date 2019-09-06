@@ -6,6 +6,7 @@ import './ResponsiveImage.scss';
 import base64Thumbs from '../../base64-images/result';
 
 class ResponsiveImage extends Component {
+  
   constructor(props) {
     super(props);
 
